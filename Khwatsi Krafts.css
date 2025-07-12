@@ -118,9 +118,17 @@ section {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
   max-width: 700px;
 }
+.section a {
+  color: #f39cc0;
+  text-decoration: none;
+  font-weight: bold;
+}
+.section a:hover {
+  text-decoration: underline;
+}
 .section:hover {
   transform: scale(1.04) translateY(-8px);
-  box-shadow: 0 8px 24px rgba(243, 109, 214, 0.15);
+  box-shadow: 0 8px 24px rgba(243, 109, 214);
   transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.2s;
 }
 
@@ -135,9 +143,9 @@ section {
 /* ===== Testimonial Styles ===== */
 .testimonial {
   background-color: #f8f9fa;
-  border-left: 4px solid #007bff;
-  padding: 15px;
-  margin: 15px 0;
+  border-left: 5px solid #007bff;
+  padding: 20px;
+  margin: 20px 0;
   font-style: italic;
 }
 .testimonial-author {
@@ -555,15 +563,15 @@ form button:hover,
     margin: 10px 0;
   }
   header h2 {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
   header p {
-    font-size: 1rem;
+    font-size: 0.89rem;
     padding: 0 8px;
     margin-bottom: 10px;
   }
   h1 {
-    font-size: 1.4rem;
+    font-size: 1rem;
     margin: 20px 0 15px 0;
     padding: 0 10px;
   }
@@ -577,24 +585,31 @@ form button:hover,
     margin: 0 0 18px 0;
     box-shadow: none;
     border-radius: 0;
+    box-shadow: 0 4px 16px rgba(243, 109, 214), 0 1.5px 6px rgba(243, 109, 214);
+    background: #fff;
   }
   .section h2 {
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     margin-top: 10px;
     margin-bottom: 10px;
   }
   .section h3 {
-    font-size: 1rem;
+    font-size: 1.25rem;
     margin-top: 8px;
     margin-bottom: 6px;
   }
-  .section p,
+  .section p {
+    font-size: 1.15rem;
+    margin-top: 8px;
+    margin-bottom: 6px;
+  }
+
   .section ul,
   .section ol,
   section p {
-    font-size: 0.98rem;
+    font-size: 0.92rem;
     padding: 0 2px;
-    margin-bottom: 10px;
+    margin-bottom: 9px;
   }
   .section ul,
   .section ol {
